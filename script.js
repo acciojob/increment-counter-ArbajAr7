@@ -2,8 +2,8 @@
 var number = 1;
 function incrementNumber() {
 	number += 1;
-  document.getElementById("abc").innerHTML = number;
+  document.getElementById("counter").innerHTML = number;
 }
-document.getElementById('xyz').innerHTML += "<p id='abc'>" + number + "</p>";
-document.getElementById('xyz').innerHTML += "<button id ='btn'>Increment</button>";
-document.getElementById('btn').addEventListener("click",incrementNumber);
+document.getElementById('xyz').innerHTML += "<p id='counter'>" + number + "</p>";
+document.getElementById('xyz').innerHTML += "<button id ='incrementBtn'>Increment</button>";
+document.getElementById('incrementBtn').addEventListener("click",incrementNumber);
